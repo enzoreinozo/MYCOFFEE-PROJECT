@@ -1,0 +1,18 @@
+h1{
+    text-align: center;
+}
+
+
+
+.izquierda{
+    text-align: left;
+}
+
+.centro{
+    text-align: center;
+}
+
+.inline-block{
+    text-align: right;
+    grid-auto-rows: auto;
+}
