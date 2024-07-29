@@ -1,5 +1,5 @@
 body{
-    background-color: #601D9F;
+    background: radial-gradient(circle at -11.24% 33.59%, #91be79 0, #85c080 3.85%, #79c289 7.69%, #6cc392 11.54%, #5ec49b 15.38%, #50c5a5 19.23%, #3fc5af 23.08%, #2dc6b9 26.92%, #12c6c3 30.77%, #00c5cd 34.62%, #00c5d6 38.46%, #00c4df 42.31%, #00c3e6 46.15%, #0cc1ed 50%, #2dbff3 53.85%, #45bdf7 57.69%, #59bafa 61.54%, #6cb8fc 65.38%, #7eb5fc 69.23%, #8eb1fc 73.08%, #9eaef9 76.92%, #adaaf6 80.77%, #bba7f1 84.62%, #c7a3eb 88.46%, #d29fe4 92.31%, #dc9cdc 96.15%, #e599d3 100%);
 }
 
 .card-img{
