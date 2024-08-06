@@ -1,50 +1,60 @@
-body{
-    background: radial-gradient(circle at -11.24% 33.59%, #91be79 0, #85c080 3.85%, #79c289 7.69%, #6cc392 11.54%, #5ec49b 15.38%, #50c5a5 19.23%, #3fc5af 23.08%, #2dc6b9 26.92%, #12c6c3 30.77%, #00c5cd 34.62%, #00c5d6 38.46%, #00c4df 42.31%, #00c3e6 46.15%, #0cc1ed 50%, #2dbff3 53.85%, #45bdf7 57.69%, #59bafa 61.54%, #6cb8fc 65.38%, #7eb5fc 69.23%, #8eb1fc 73.08%, #9eaef9 76.92%, #adaaf6 80.77%, #bba7f1 84.62%, #c7a3eb 88.46%, #d29fe4 92.31%, #dc9cdc 96.15%, #e599d3 100%);
+@import url('https://fonts.googleapis.com/css?family=Montserrat:500');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #24252a;
 }
 
-.card-img{
-    width: 160px;
-    border-radius: 45%;
+.logo{
+    width: 200px;
+}
+li, a, button{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #edf0f1;
+    text-decoration: none;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+}
+
+.logo{
+    cursor: pointer;
+}
+
+.nav-links{
+    list-style: none;
+}
+
+.nav-links li{
     display: inline-block;
-    margin: 44px;
+    padding: 0px 20px;
 }
 
-.card-title{
-    margin-top: 50px ;
-    text-align: center;
-    background-color: #DA8B26;
-    border-radius: 100px;
-    box-shadow: 0px 0px 30px #0006;
+.nav-links li a{
+    transition: all 0.3 ease 0s;
 }
 
-.card{
-    background-color: #2481D9;
-    width: 250px;
-    border-radius: 10px;
-    padding-bottom: 5px;
-    box-shadow: 0px 0px 30px #0006;
-    display: inline-block;
-    margin: 106px;
-
+.nav-links li a:hover{
+    color: #0088a9;
 }
 
-.second-card{
-    background-color: #24D987;
-    width: 250px;
-    border-radius: 10px;
-    padding-bottom: 5px;
-    box-shadow: 0px 0px 30px #0006;
+button{
+    padding: 9px 25px;
+    background-color: rgba(0, 136,165,1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3 ease 0s;
 }
 
-.third-card{
-    background-color: #E269D5;
-    width: 300px;
-    border-radius: 10px;
-    padding-bottom: 5px;
-    box-shadow: 0px 0px 30px #0006;
-}
-
-#hot, #dessert, #cold{
-    text-align: center;
-    padding-top: 20px;
+button:hover{
+    background-color: rgba(0, 136,165,0.8);
 }
